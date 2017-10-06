@@ -87,7 +87,7 @@ const postNewItinerary = () => {
 
   api.postItinerary(itinHotels, itinActivities, itinRestaurants)
   .then(response => {
-    console.log('response from api.postItinerary', response);
+    //console.log('response from api.postItinerary', response);
     window.location.hash = '#' + response.toString();
   })
 
